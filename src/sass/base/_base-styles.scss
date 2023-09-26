@@ -1,0 +1,44 @@
+h1,h2,h3,h4,h5,h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: $color-white-primary;
+    color: $color-text-primary;
+
+    font-family: $font-family-primaty;
+    letter-spacing: 0.03em;
+}
+
+
+.container {
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    @media screen and (min-width: $mobile) {
+        width: $mobile;
+    }
+
+    @media screen and (min-width: $tablet) {
+        width: $tablet;
+    }
+    
+    @media screen and (min-width: $desktop) {
+        width: $desktop;
+    }
+
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+a {
+    text-decoration: none;
+}
